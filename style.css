@@ -57,7 +57,7 @@ header .cart {
 
 /* Banner section */
 .banner {
-    background: url('banner.jpg') no-repeat center center/cover;
+    background: url('background.png') no-repeat center center/cover;
     height: 100vh;
     color: rgb(161, 1, 89);
     display: flex;
