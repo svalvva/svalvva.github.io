@@ -70,9 +70,9 @@ li {
 } */
 
 .galeri {  
-    display: flex;  
+    /* display: flex;  
     flex-wrap: wrap;  
-    justify-content: center;
+    justify-content: center; */
     width: 50%;  
     height: 50%; 
     object-fit: fill;
