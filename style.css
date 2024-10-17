@@ -72,7 +72,12 @@ li {
 .galeri {  
     display: flex;  
     flex-wrap: wrap;  
-    justify-content: center;  
+    justify-content: center;
+    width: 50%;  
+    height: 50%; 
+    object-fit: fill;
+    object-fit: cover;
+    border-radius: 20px;  
 }  
         
 .galeri img {  
