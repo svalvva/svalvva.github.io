@@ -62,9 +62,9 @@ li {
     margin-bottom: 20px;  
 }
 
-img {  
-    width: 100vh;  
-    height: 100vh;  
+img {
+    width: 80%;  
+    height: 80%;  
     object-fit: cover;  
     border-radius: 10px;  
 }
