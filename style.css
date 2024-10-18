@@ -62,7 +62,7 @@ li {
     margin-bottom: 20px;  
 }
 
-/* .galeri {  
+.galeri {  
     display: flex;  
     flex-wrap: wrap;  
     justify-content: center;
@@ -71,7 +71,7 @@ li {
     object-fit: fill;
     object-fit: cover;
     border-radius: 20px;  
-}   */
+}  
         
 .galeri img {  
     width: 50%;  
