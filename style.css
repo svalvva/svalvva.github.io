@@ -68,13 +68,13 @@ li {
     justify-content: center; 
 }  
         
-.galeri img {  
+/* .galeri img {  
     width: 50%;  
     height: 50%; 
     object-fit: fill;
     object-fit: cover;
     border-radius: 20px;
-}
+} */
  .gambar2 img{
     display: block;
     margin-left: auto;
