@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #4d2f03;
+    background-color: #4d5e89;
     color: #edfdff;
     padding: 20px;
     text-align: center;
@@ -16,29 +16,29 @@ header h1 {
     margin-bottom: 10px;
 }
 
-nav ul {
+/* nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
-}
+} */
 
-nav li {
+/* nav li {
     margin-right: 20px;
 }
 
 nav a {
     color: #ffffff;
     text-decoration: solid;
-}
+} */
 
-main {
+/* main {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-}
+} */
 
 section {
     background-color: beige;
@@ -47,10 +47,10 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
 }
 
-h2 {
+/* h2 {
     font-size: 24px;
     margin-bottom: 10px;
-}
+} */
 
 ul {
     list-style: none;  
@@ -58,11 +58,11 @@ ul {
     padding: 0;
 }
 
-.galeri {  
+/* .galeri {  
     display: flex;  
     flex-wrap: wrap;  
     justify-content: center; 
-}  
+}   */
         
 /* .galeri img {  
     width: 50%;  
