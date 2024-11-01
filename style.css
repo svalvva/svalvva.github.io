@@ -202,7 +202,7 @@ body {
         right: 0;
         height: 100vh;
         top: 0;
-        background-color: rgb(232, 136, 168);
+        background-color: palevioletred;
         width: 100%;
         flex-direction: column;
         justify-content: space-evenly;
