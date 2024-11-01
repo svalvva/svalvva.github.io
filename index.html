@@ -3,31 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jenis Kucing</title>
+    <title>Pitipaw.Craft</title>
+    <link
+     href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+     rel="stylesheet"
+     />
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Kucing</h1>
-    </header>
-        <section id="Jenis-Kucing">
-            <h1>Jenis-Kucing</h1>
-            <ul>
-            <div class="gambar1">
-                <h3>Kucing Menkun</h3>
-                <p>Kucing Munchkin adalah ras kucing yang dikenal karena tubuhnya yang pendek dan kaki yang pendek. Karakteristik ini disebabkan oleh mutasi genetik yang mempengaruhi pertumbuhan tulang. Meskipun memiliki ukuran yang kecil, kucing Munchkin biasanya aktif, lincah, dan memiliki kepribadian yang ramah. Mereka juga sangat sosial dan senang berinteraksi dengan pemiliknya. Munchkin hadir dalam berbagai warna dan pola, menjadikannya ras yang cukup populer di kalangan pecinta kucing.<p>
-                <img src="img/Menkun.png" alt="Kucing Menkun">
-            </div>
-            <div class="gambar2">
-                <h3>Kucing British Shorhairt</h3>
-                <p>Kucing British Shorthair adalah ras kucing yang berasal dari Inggris. Mereka dikenal dengan ciri fisik khas, seperti tubuh yang kekar, kepala bulat, dan mata besar yang ekspresif. Bulu mereka pendek, padat, dan lembut, sering kali berwarna biru abu-abu, tetapi juga tersedia dalam berbagai warna dan pola</p>
-                <img src="img/British.png" alt="Kucing British Shorhair">
-            </div>
-            <div class="gambar3"> 
-                <h3>Kucing Persia</h3>
-                <p>Kucing Persia adalah salah satu ras kucing yang paling populer dan dikenal karena penampilan fisiknya yang khas. Mereka memiliki wajah datar, hidung kecil, dan mata besar yang ekspresif. Bulu mereka panjang, tebal, dan sangat lembut, sehingga memerlukan perawatan rutin untuk mencegah kusut.</p>
-                <img src="img/Persia.png" alt="Kucing Persia">
-            </div>
-            </ul>
-</body>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+ </head>
+ <body>
+     <div class="container">
+
+        <header class="header">
+             <div class="paw">
+                <h2 class="heading">Pitipaw Shop</h2>
+                <p class="sub-heading">Strap Bag & Keychain</p>
+             </div>
+             <div class="features feature-1">
+                <h4 class="price">IDR 45K</h4>
+                <p class="item">Strap Bag</p>
+             </div>
+             <div class="features feature-2">
+                <h4 class="price">IDR 15K</h4>
+                <p class="item">Keychain</p>
+             </div>
+        </header>
+
+        <nav class="menu">
+         <div class="menu-toggle">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <div class="brand">
+            <h1>Pitipaw Shop</h1>
+         </div>
+         <ul class="menu-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Galeri</a></li>
+         </ul>
+        </nav>
+
+        <section class="services">
+         <div class="service">
+            <div class="icon"></div>
+            <h3></h3>
+         </div>
+        </section>
+        
+     </div>
+     <script>
+      const menuToggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('nav ul');
+
+      menuToggle.addEventListener('click', function () {
+         nav.classList.toggle('slide');
+      });
+     </script>
+ </body>
 </html>
