@@ -14,10 +14,6 @@ body {
     margin: 50px;
 }
 
-.lagu {
-    display: none;
-}
-
 /* container */
 .container {
     display: grid;
